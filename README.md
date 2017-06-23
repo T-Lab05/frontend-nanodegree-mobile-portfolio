@@ -7,14 +7,14 @@ The following link lead yout to the home page:
 ## 2. What I changed?
   I changed the following point.
   (1) Optimizations for index.html
-    - add media="print" for print.css
-    - remove link to Open Sans fonts
-    - add "async" attribute for the scripts 
-    - change all image file from JPEG to SVG
-    - insert style properties in <img> tags
+    1. add media="print" for print.css
+    2. remove link to Open Sans fonts
+    3. add "async" attribute for the scripts 
+    4. change all image file from JPEG to SVG
+    5. insert style properties in <img> tags
     
    (2) Optimizations for main.js
-    - remove the "updatesPositions" function
-    - revised the "changePizzaSizes" function
+    1. remove the "updatesPositions" function
+    2. revised the "changePizzaSizes" function
       
     
