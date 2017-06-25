@@ -15,7 +15,9 @@
     * insert style properties in <img> tags
     
  2. Optimizations for main.js
-    * revised the "updatesPositions" function
-    * revised the "changePizzaSizes" function
-      
+    * use getElementById or getElementByClassName instead of querySelector 
+    * revise the "updatesPositions" function
+    * revise the "changePizzaSizes" function
+    * revise the anonymous function in the EventListner for "DOMcontentLoaded"
+     
     
