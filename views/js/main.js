@@ -458,7 +458,7 @@ window.performance.mark("mark_start_generating"); // collect timing data
 
 // This for-loop actually creates and appends all of the pizzas when the page loads
 var pizzasDiv = document.getElementById("randomPizzas");
-for (var i = 2; i < 100; i++) { 
+for (var i = 2; i < 100; i++) {
   pizzasDiv.appendChild(pizzaElementGenerator(i));
 }
 
@@ -482,14 +482,19 @@ function logAverageFrame(times) {   // times is the array of User Timing measure
   console.log("Average scripting time to generate last 10 frames: " + sum / 10 + "ms");
 }
 
+
 // Moves the sliding background pizzas based on scroll position
+
+
 function updatePositions() {
   frame++;
   window.performance.mark("mark_start_frame");
-
   var items = document.querySelectorAll('.mover');
+  var scrollY = document.body.scrollTop / 1250;
+  console.log(document.body.scrollTop);
+  console.log(scrollY);
   for (var i = 0; i < items.length; i++) {
-    var phase = Math.sin((document.body.scrollTop / 1250) + (i % 5));
+    var phase = Math.sin(scrollY + i);
     items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
   }
 
