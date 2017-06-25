@@ -15,7 +15,8 @@
     * insert style properties in <img> tags
     
  2. Optimizations for main.js
-    * use getElementById or getElementByClassName instead of querySelector 
+    * use getElementById or getElementByClassName instead of querySelector
+    * move declarations and initiations from the inside of the for loop to the initiation part in the loop
     * revise the "updatesPositions" function
     * revise the "changePizzaSizes" function
     * revise the anonymous function in the EventListner for "DOMcontentLoaded"
