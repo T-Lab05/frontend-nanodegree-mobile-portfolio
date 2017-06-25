@@ -1,8 +1,9 @@
 ## Website Performance Optimization portfolio project
 
 ## 1. How to use?
-The following link lead yout to the home page:
-  https://t-lab05.github.io/frontend-nanodegree-mobile-portfolio/
+  1. Download the zip file
+  2. Unzip the downloaded file
+  3. Open the index.html in your web browser
   
 ## 2. What I changed?
   I changed the following point.
@@ -14,7 +15,7 @@ The following link lead yout to the home page:
     * insert style properties in <img> tags
     
  2. Optimizations for main.js
-    * remove the "updatesPositions" function
+    * revised the "updatesPositions" function
     * revised the "changePizzaSizes" function
       
     
